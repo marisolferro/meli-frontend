@@ -1,0 +1,56 @@
+@import 'variables.scss';
+
+.main {
+
+  .item-container{
+
+    background-color: $cardColor;
+    display: flex;
+    flex-wrap: nowrap;
+    cursor:pointer;
+
+    .detail-container{
+      width: 80%;
+      padding: 15px;
+      color: $colorTitle;
+      display: flex;
+      flex-wrap: nowrap;
+
+      .img-item{
+        width: 130px;
+        height: 130px;
+        border-radius: 4px;
+      }
+
+      .description{
+        padding: 0px 10px;
+
+        h4{
+          padding: 0;
+        }
+
+        .title {
+          font-size: $text4FontWeight;
+        }
+        
+      }
+    }
+
+    .address-container{
+      width: 20%;
+      padding: 30px 6px;
+      color: $colorText;
+      font-size: $text3FontWeight;
+    }
+  }
+
+  .items{
+    background-color: $cardColor;
+
+    hr{
+      border: 1px solid #f5f5f5;
+      margin: 0;
+    }
+  }
+  
+}

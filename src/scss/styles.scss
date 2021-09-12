@@ -1,0 +1,55 @@
+@import 'variables.scss';
+
+body {
+  margin: 0;
+  font-family: $mainFontFamily;
+  background-color: $backgroundColor;
+}
+
+h1 {
+  font-size: $h1FontWeight;
+  color: $colorTitle;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: $h2FontWeight;
+  color: $colorTitle;
+}
+
+h3 {
+  font-size: $h3FontWeight;
+  color: $colorTitle;
+  font-weight: normal;
+} 
+
+h3 {
+  font-size: $h4FontWeight;
+  color: $colorTitle;
+  font-weight: normal;
+} 
+
+.body-text1 {
+  font-size: $text1FontWeight;
+  color: $colorText;
+}
+
+.body-text2 {
+  font-size: $text2FontWeight;
+  color: $colorText;  
+}
+
+.body-text3 {
+  font-size: $text3FontWeight;
+  color: $colorText;  
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+
+
+
+
+

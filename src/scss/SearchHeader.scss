@@ -1,0 +1,54 @@
+
+@import 'variables.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    
+  background-color:$mainColor;
+  display: flex;
+  flex-wrap: nowrap;
+
+  .search-container{
+    width: 100%;
+    margin: auto;
+
+    input{
+      width: 95%;
+      padding: 6px;
+      font-size: $text2FontWeight;
+      border-radius: 2px;
+      border: none;
+      height: 30px;
+      margin: 0;
+    }
+
+    button {
+      width: 5%;
+      border:none;
+      border-radius: 2px;
+      height: 30px;
+      margin: 0;
+      padding: 0;
+      background-color: $backgroundColor;
+      cursor:pointer;
+      
+      .imgSearch{
+        max-width: 13px;
+      }
+    }
+  }
+
+  .logo-container{
+    margin-right: 15px;
+    .logo {
+      display: block;
+      max-width: 60px;
+    }
+
+  }
+
+  
+}
